@@ -1,0 +1,10 @@
+repositories {
+	jcenter()
+}
+
+apply plugin:'java'
+
+dependencies {
+	compile 'org.json:json:20180813'
+	compile 'org.apache.httpcomponents:httpclient:4.5.6'
+}
